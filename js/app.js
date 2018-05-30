@@ -11,23 +11,44 @@ myApp.config(function ($stateProvider,  $locationProvider) {
     )
     .state(
       {
-        name: 'about',
-        url: '/about',
-        templateUrl: 'views/about.html'
+        name: 'creativity-entrepreneurship',
+        url: '/creativity-entrepreneurship',
+        templateUrl: 'views/creativity-entrepreneurship.html'
       }
     )
     .state(
       {
-        name: 'blog',
-        url: '/blog',
-        templateUrl: 'views/blog.html'
+        name: 'cultural-heritage',
+        url: '/cultural-heritage',
+        templateUrl: 'views/cultural-heritage.html'
       }
     )
     .state(
       {
-        name: 'contact',
-        url: '/contact',
-        templateUrl: 'views/contact.html'
+        name: 'imagination',
+        url: '/imagination',
+        templateUrl: 'views/imagination.html'
+      }
+    )
+    .state(
+      {
+        name: 'inspiring-spaces',
+        url: '/inspiring-spaces',
+        templateUrl: 'views/inspiring-spaces.html'
+      }
+    )
+    .state(
+      {
+        name: 'research-excellence',
+        url: '/research-excellence',
+        templateUrl: 'views/research-excellence.html'
+      }
+    )
+    .state(
+      {
+        name: 'student-success',
+        url: '/student-success',
+        templateUrl: 'views/student-success.html'
       }
     );
 

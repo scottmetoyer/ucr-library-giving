@@ -930,8 +930,9 @@ body {
   display: none;
 }
 .promos-box {
-  padding: 60px 0 65px 0;
+  padding: 60px 20px 65px 20px;
   position: relative;
+
 }
 .promos-box:after {
   content: '';
