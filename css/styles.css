@@ -981,7 +981,7 @@ body {
 }
 .promos-box .promo-inner {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   text-align: center;
   z-index: 3;
   position: relative;
@@ -1001,6 +1001,7 @@ body {
   -ms-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
+  width: 100%;
 }
 .promos-box h2:hover {
   opacity: 0.9;
