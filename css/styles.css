@@ -450,10 +450,24 @@ body {
 #header {
   background: #ffffff;
 }
-#header .header-top {
-  text-align: center;
-  padding-top: 75px;
-  padding-bottom: 75px;
+.header-top {
+  text-align: left;
+  height: 450px;
+  margin: 0;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.logo-wrap {
+  max-width: 33%;
+}
+@media screen and (max-width: 782px) {
+  .logo-wrap {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 .logo-wrap .logo-text {
   font-size: 35px;
@@ -2603,3 +2617,4 @@ body {
     transform: rotate(360deg);
   }
 }
+
