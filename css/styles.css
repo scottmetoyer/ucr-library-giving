@@ -936,7 +936,6 @@ body {
 .promos-box:after {
   content: '';
   border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
   height: 10px;
   width: 100%;
   display: block;
@@ -2619,8 +2618,8 @@ body {
   }
 }
 
-.top-buffer { margin-top: 30px; }
-
-@media screen and (max-width: 991px) {
-  .top-buffer { margin-top: 0px; }
+@media (min-width: 991px) {
+  .col-xs-12 {
+      margin-bottom: 30px;
+  }
 }
