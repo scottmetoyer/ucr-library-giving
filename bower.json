@@ -1,0 +1,24 @@
+{
+  "name": "ucr-library-giving",
+  "homepage": "https://github.com/scottmetoyer/ucr-library-giving",
+  "authors": [
+    "Scott Metoyer <scott.metoyer@ucr.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "angular": "angularjs#^1.6.9",
+    "angular-ui-router": "^1.0.15",
+    "bootstrap": "^4.0.0"
+  }
+}
