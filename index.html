@@ -8,7 +8,8 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 
-	<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat:200,400,400i,700,700i%7CLora:400,400i,700,700i%7CPoppins:600' type='text/css' media='all' />
+	<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat:200,400,400i,700,700i%7CLora:400,400i,700,700i%7CPoppins:600'
+	  type='text/css' media='all' />
 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -20,6 +21,7 @@
 
 	<base href="/">
 </head>
+
 <body ng-app="app">
 
 	<!-- Wrapper Site -->
@@ -28,78 +30,84 @@
 		<!-- Header -->
 		<header id="header" class="header">
 			<div class="header-nav">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8">
-							<div class="main-menu">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="main-menu">
 
-								<div class="hide-menu"></div>
+							<div class="hide-menu"></div>
 
-								<!-- Mobile -->
-								<div class="menu-mobile">
-									<span class="item item-1"></span>
-									<span class="item item-2"></span>
-									<span class="item item-3"></span>
-								</div>
-								<!-- End Mobile -->
-
-								<!-- Navigation -->
-								<nav>
-									<ul class="menu-list clearfix">
-										<li><a ui-sref="home" ui-sref-active="active">Home</a></li>
-										<li><a ui-sref="about" ui-sref-active="active">About</a></li>
-										<li><a ui-sref="blog" ui-sref-active="active">Blog</a></li>
-										<li><a ui-sref="contact" ui-sref-active="active">Contact</a></li>
-									</ul>
-								</nav>
-								<!-- End Navigation -->
+							<!-- Mobile -->
+							<div class="menu-mobile">
+								<span class="item item-1"></span>
+								<span class="item item-2"></span>
+								<span class="item item-3"></span>
 							</div>
+							<!-- End Mobile -->
+
+							<!-- Navigation -->
+							<nav>
+								<ul class="menu-list clearfix">
+									<li>
+										<a ui-sref="home" ui-sref-active="active">Home</a>
+									</li>
+									<li>
+										<a ui-sref="about" ui-sref-active="active">About</a>
+									</li>
+									<li>
+										<a ui-sref="blog" ui-sref-active="active">Blog</a>
+									</li>
+									<li>
+										<a ui-sref="contact" ui-sref-active="active">Contact</a>
+									</li>
+								</ul>
+							</nav>
+							<!-- End Navigation -->
 						</div>
-						<div class="col-md-4">
-							<!-- Socials -->
-							<div class="socials text-right">
-								<a href="#" title="Behance">
-									<i class="fa fa-behance"></i>
-								</a>
-								<a href="#" title="Dribbble">
-									<i class="fa fa-dribbble"></i>
-								</a>
-								<a href="#" title="Facebook">
-									<i class="fa fa-facebook"></i>
-								</a>
-								<a href="#" title="Flickr">
-									<i class="fa fa-flickr"></i>
-								</a>
-								<a href="#" title="Google Plus">
-									<i class="fa fa-google-plus"></i>
-								</a>
-								<a href="#" title="Instagram">
-									<i class="fa fa-instagram"></i>
-								</a>
-								<a href="#" title="Search" class="header-search">
-									<i class="fa fa-search"></i>
-								</a>
-							</div>
-							<!-- End Socials -->
+					</div>
+					<div class="col-md-4">
+						<!-- Socials -->
+						<div class="socials text-right">
+							<a href="#" title="Behance">
+								<i class="fa fa-behance"></i>
+							</a>
+							<a href="#" title="Dribbble">
+								<i class="fa fa-dribbble"></i>
+							</a>
+							<a href="#" title="Facebook">
+								<i class="fa fa-facebook"></i>
+							</a>
+							<a href="#" title="Flickr">
+								<i class="fa fa-flickr"></i>
+							</a>
+							<a href="#" title="Google Plus">
+								<i class="fa fa-google-plus"></i>
+							</a>
+							<a href="#" title="Instagram">
+								<i class="fa fa-instagram"></i>
+							</a>
+							<a href="#" title="Search" class="header-search">
+								<i class="fa fa-search"></i>
+							</a>
+						</div>
+						<!-- End Socials -->
 
-							<!-- Search -->
-							<div class="header-search-popup">
-								<div class="header-table">
-									<div class="header-tb-cell">
-										<div class="search-wrap">
-											<form role="search" method="get" action="#">
-												<input type="text" placeholder="Search ..." name="s" />
-											</form>
-											<div class="header-close">
-												<i class="fa fa-close"></i>
-											</div>
+						<!-- Search -->
+						<div class="header-search-popup">
+							<div class="header-table">
+								<div class="header-tb-cell">
+									<div class="search-wrap">
+										<form role="search" method="get" action="#">
+											<input type="text" placeholder="Search ..." name="s" />
+										</form>
+										<div class="header-close">
+											<i class="fa fa-close"></i>
 										</div>
-
 									</div>
+
 								</div>
 							</div>
-							<!-- End Search -->
 						</div>
+						<!-- End Search -->
 					</div>
 				</div>
 			</div>
@@ -168,7 +176,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12">
-							© 2018 <a href="#">UCR Library</a>
+							© 2018
+							<a href="#">UCR Library</a>
 						</div>
 					</div>
 				</div>
@@ -192,4 +201,5 @@
 	<script src="js/scripts.js"></script>
 	<!-- End Scripts -->
 </body>
+
 </html>

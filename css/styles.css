@@ -550,13 +550,14 @@ body {
   bottom: 19px;
 }
 .header-nav {
-  height: 50px;
+  height: 64px;
   background: #ffffff;
   font-size: 11px;
   text-transform: uppercase;
   font-family: 'Montserrat', serif;
   letter-spacing: 2px;
   box-shadow: 0 0 10px 0 rgba(153, 153, 153, 0.2);
+
 }
 .header-nav.menu-sticky {
   position: fixed;
