@@ -2619,3 +2619,8 @@ body {
   }
 }
 
+.top-buffer { margin-top: 30px; }
+
+@media screen and (max-width: 991px) {
+  .top-buffer { margin-top: 0px; }
+}
