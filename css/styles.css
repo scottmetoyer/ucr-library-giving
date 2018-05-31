@@ -356,7 +356,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #008c80 !important;
+  color: #2d6cc0 !important;
 }
 
 p {
@@ -407,7 +407,7 @@ blockquote {
   padding: 0 0 0 20px;
   margin: 20px 0;
   overflow: hidden;
-  border-left: 3px solid #008c80;
+  border-left: 3px solid #2d6cc0;
   font-style: italic;
 }
 
@@ -561,7 +561,7 @@ body {
 
 .logo-wrap .logo-text {
   font-size: 35px;
-  color: #008c80;
+  color: #2d6cc0;
   text-transform: uppercase;
   font-family: "Poppins", serif;
   line-height: 1em;
@@ -575,7 +575,7 @@ body {
 .logo-wrap .tagline {
   margin: 0;
   font-size: 18px;
-  color: #008c80;
+  color: #2d6cc0;
   letter-spacing: 2px;
   font-style: italic;
   text-transform: capitalize;
@@ -705,7 +705,7 @@ body {
 
 .header-nav .menu-list li.current-menu-parent>a,
 .header-nav .menu-list li.current-menu-item>a {
-  color: #008c80;
+  color: #2d6cc0;
 }
 
 .header-nav .menu-list .sub-menu {
@@ -1014,7 +1014,7 @@ body {
   font-size: 24px;
   line-height: 50px;
   text-align: center;
-  background: #008c80;
+  background: #2d6cc0;
   color: #ffffff;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -1061,7 +1061,7 @@ body {
 
 .cat a {
   color: #ffffff !important;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   padding: 0 20px;
   text-transform: uppercase;
   display: inline-block;
@@ -1143,11 +1143,11 @@ body {
 
 .promos-box h2 {
   margin: 0;
-  font-size: 12px;
+  font-size: 17px;
   text-transform: uppercase;
   padding: 3px 20px;
   color: #ffffff;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   display: inline-block;
   letter-spacing: 2.4px;
   opacity: 1;
@@ -1221,7 +1221,7 @@ body {
 
 .post .wp-caption .wp-caption-text a,
 .page .wp-caption .wp-caption-text a {
-  color: #008c80;
+  color: #2d6cc0;
   display: inline-block;
 }
 
@@ -1287,7 +1287,7 @@ body {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   color: #f8f8f8;
   pointer-events: none;
 }
@@ -1421,18 +1421,18 @@ body {
 .comment table>tbody>tr>td,
 .the-excerpt table>tfoot>tr>td,
 .comment table>tfoot>tr>td {
-  border: 1px solid #008c80;
+  border: 1px solid #2d6cc0;
   line-height: 1.42857;
   padding: 8px;
   vertical-align: top;
 }
 
 .the-excerpt table>thead {
-  border-top: 1px solid #008c80;
+  border-top: 1px solid #2d6cc0;
 }
 
 .the-excerpt table>thead>tr>th {
-  border-bottom: 1px solid #008c80;
+  border-bottom: 1px solid #2d6cc0;
   vertical-align: bottom;
 }
 
@@ -1477,7 +1477,7 @@ body {
   min-height: 40px;
   display: inline-block;
   padding: 0 25px;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 40px;
@@ -1489,7 +1489,7 @@ body {
 }
 
 .screen-reader-text {
-  font-size: #008c80;
+  font-size: #2d6cc0;
   line-height: normal;
   display: inline-block;
   margin-bottom: 10px;
@@ -1517,7 +1517,7 @@ body {
 
 #wrap-posts .cat a {
   margin-bottom: 10px;
-  border: 1px solid #008c80;
+  border: 1px solid #2d6cc0;
 }
 
 #wrap-posts .grid-layout .post-head {
@@ -1626,7 +1626,7 @@ body {
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   display: inline-block;
   font-family: 'Montserrat', serif;
   opacity: 1;
@@ -1662,7 +1662,7 @@ body {
 }
 
 .post-details .post-author {
-  color: #008c80;
+  color: #2d6cc0;
   text-transform: capitalize;
 }
 
@@ -1680,7 +1680,7 @@ body {
   line-height: 50px;
   text-align: center;
   background-color: #ffffff;
-  color: #008c80;
+  color: #2d6cc0;
   margin-right: 5px;
 }
 
@@ -1692,7 +1692,7 @@ body {
 .pagination-wrap>*:focus,
 .pagination-wrap>*:active,
 .pagination-wrap>*.current {
-  background-color: #008c80 !important;
+  background-color: #2d6cc0 !important;
   color: #ffffff !important;
 }
 
@@ -1883,7 +1883,7 @@ body {
   text-align: right;
   font-size: 14px;
   font-style: italic;
-  color: #008c80;
+  color: #2d6cc0;
 }
 
 #comments .reply a {
@@ -1924,7 +1924,7 @@ body {
 
 #cancel-comment-reply-link {
   letter-spacing: 1px;
-  color: #008c80;
+  color: #2d6cc0;
 }
 
 .contact input[type=text],
@@ -1949,7 +1949,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   height: 50px;
-  background: #008c80;
+  background: #2d6cc0;
   color: #ffffff;
   display: block;
   font-size: 14px;
@@ -2003,7 +2003,7 @@ body {
 }
 
 .contact .form-login-logout .is-login {
-  color: #008c80;
+  color: #2d6cc0;
 }
 
 .archive-header {
@@ -2022,7 +2022,7 @@ body {
 }
 
 .archive-header .archive-name {
-  color: #008c80;
+  color: #2d6cc0;
 }
 
 .post_404_not_found {
@@ -2039,7 +2039,7 @@ body {
 }
 
 .page_title_404 span {
-  color: #008c80;
+  color: #2d6cc0;
 }
 
 .page_sub_title_404 {
@@ -2089,14 +2089,14 @@ body {
 .kd-wrap-shortcode .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
-  border: 1px solid #008c80;
+  border: 1px solid #2d6cc0;
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
 }
 
 .kd-wrap-shortcode .owl-dots .owl-dot.active {
-  background: #008c80;
+  background: #2d6cc0;
 }
 
 .kd-wrap-shortcode .video-wrap {
@@ -2256,11 +2256,11 @@ body {
 }
 
 #footer .copyright a {
-  color: #008c80;
+  color: #2d6cc0;
 }
 
 #footer .copyright a:hover {
-  color: #008c80 !important;
+  color: #2d6cc0 !important;
 }
 
 #footer .instagram-feed {
@@ -2299,7 +2299,7 @@ body {
   padding: 15px 30px;
   font-size: 14px;
   font-family: 'Montserrat', serif;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   color: #ffffff;
   position: absolute;
   top: 50%;
@@ -2408,7 +2408,7 @@ body {
   font-size: 14px;
   text-align: center;
   border: none;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   color: #ffffff;
   position: absolute;
   top: 0;
@@ -2442,7 +2442,7 @@ body {
 
 .widget.kd-mailchimp .kd-btn {
   margin-top: 15px;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   display: block;
   width: 100%;
   text-transform: uppercase;
@@ -2715,7 +2715,7 @@ body {
 }
 
 .widget.widget_calendar #wp-calendar #today {
-  background-color: #008c80;
+  background-color: #2d6cc0;
   color: #ffffff;
 }
 
@@ -2933,7 +2933,7 @@ body {
     transform: rotate(0);
   }
   55% {
-    background-color: #008c80;
+    background-color: #2d6cc0;
   }
   100% {
     transform: rotate(90deg);
@@ -2946,7 +2946,7 @@ body {
     transform: rotate(0);
   }
   55% {
-    background-color: #008c80;
+    background-color: #2d6cc0;
   }
   100% {
     transform: rotate(-90deg);
@@ -2968,7 +2968,7 @@ body {
   display: block;
   width: 20px;
   height: 20px;
-  background-color: #008c80;
+  background-color: #2d6cc0;
   animation: loaderBlock 1.2s infinite ease-in-out both;
 }
 
@@ -3020,7 +3020,7 @@ body {
   border-right-color: #d4d4d4 !important;
   border-bottom-color: #d4d4d4 !important;
   border-left-color: #d4d4d4 !important;
-  border-top-color: #008c80;
+  border-top-color: #2d6cc0;
   margin-right: 3px;
   -webkit-animation: kdSpin 1s cubic-bezier(0.24, 0.56, 0.54, 0.84) infinite;
   -moz-animation: kdSpin 1s cubic-bezier(0.24, 0.56, 0.54, 0.84) infinite;
