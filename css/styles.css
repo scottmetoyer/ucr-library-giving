@@ -581,6 +581,17 @@ body {
   padding-top: 10px;
 }
 
+.logo-wrap .description {
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1.6vw;
+  line-height: 1.4em;
+  font-weight: normal;
+  padding: 10px;
+  max-width: 50%;
+  background-color: rgba(236, 236, 236, 0.5);
+  margin-top: 20px;
+}
+
 .socials {
   line-height: 50px;
   height: 50px;
@@ -662,6 +673,43 @@ body {
 .header-nav .logo {
   margin: 10px 0 10px 10px;
   padding: 0;
+}
+
+@media screen and (max-width: 815px) {
+  .header-nav .explore-link {
+    display: none;
+  }
+
+  .header-nav a.give-button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-top {
+    background-position: 50% 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-nav a.give-button {
+    width: 100% !important;
+  }
+  .header-nav a.explore-link {
+    display: none;
+  }
+
+  .logo-wrap .description {
+    display: none;
+  }
+
+  .logo-wrap .tagline {
+    font-size: 20px;
+  }
+
+  .header-nav .logo {
+    display: none;
+  }
 }
 
 .header-nav a {
