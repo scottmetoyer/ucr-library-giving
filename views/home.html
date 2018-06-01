@@ -19,72 +19,115 @@
 <div id="promos-box" class="promos-box">
 	<div class="row">
 		<div class="col-md-4 col-xs-12">
-			<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg); ">
-				<div class="promo-inner">
-					<a ui-sref="student-success"><h2>Student Success</h2></a>
-				</div>
-			</div>
+			<flip flipped="flip1" ng-mouseenter="flip1 = !flip1" ng-mouseleave="flip1 = !flip1" ng-click="go('/student-success')">
+				<card-flip-front>
+					<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg); ">
+						<div class="promo-inner">
+							<h2>Student Success</h2>
+						</div>
+					</div>
+				</card-flip-front>
+				<card-flip-back>
+					<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
+						<div class="promo-inner">
+							<h2>This is the back</h2>
+						</div>
+					</div>
+				</card-flip-back>
+			</flip>
 		</div>
 		<div class="col-md-4 col-xs-12">
-			<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
-				<div class="promo-inner">
-					<a ui-sref="research-excellence"><h2>Research Excellence</h2></a>
-				</div>
-			</div>
+			<flip flipped="flip2" ng-mouseenter="flip2 = !flip2" ng-mouseleave="flip2 = !flip2"  ng-click="go('/research-excellence')">
+				<card-flip-front>
+					<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg); ">
+						<div class="promo-inner">
+							<h2>Research Excellence</h2>
+						</div>
+					</div>
+				</card-flip-front>
+				<card-flip-back>
+					<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
+						<div class="promo-inner">
+							<h2>This is the back</h2>
+						</div>
+					</div>
+				</card-flip-back>
+			</flip>
 		</div>
 		<div class="col-md-4 col-xs-12">
-			<div class="promo-box image" style="background-image: url(images/promo-box/3.jpg); ">
-				<div class="promo-inner">
-					<a ui-sref="creativity-entrepreneurship"><h2>Creativity &amp; Entrepreneurship</h2></a>
-				</div>
-			</div>
+			<flip flipped="flip3" ng-mouseenter="flip3 = !flip3" ng-mouseleave="flip3 = !flip3" ng-click="go('/creativity-entrepreneurship')">
+				<card-flip-front>
+					<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg);">
+						<div class="promo-inner">
+							<h2>Creativity &amp; Entrepreneurship</h2>
+						</div>
+					</div>
+				</card-flip-front>
+				<card-flip-back>
+					<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
+						<div class="promo-inner">
+							<h2>This is the back</h2>
+						</div>
+					</div>
+				</card-flip-back>
+			</flip>
 		</div>
 
 		<div class="col-md-4 col-xs-12">
-			<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg); ">
-				<div class="promo-inner">
-					<a ui-sref="inspiring-spaces"><h2>Inspiring Spaces</h2></a>
-				</div>
-			</div>
+			<flip flipped="flip4" ng-mouseenter="flip4 = !flip4" ng-mouseleave="flip4 = !flip4" ng-click="go('/inspiring-spaces')">
+				<card-flip-front>
+					<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg); ">
+						<div class="promo-inner">
+							<h2>Inspiring Spaces</h2>
+						</div>
+					</div>
+				</card-flip-front>
+				<card-flip-back>
+					<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
+						<div class="promo-inner">
+							<h2>This is the back</h2>
+						</div>
+					</div>
+				</card-flip-back>
+			</flip>
 		</div>
 		<div class="col-md-4 col-xs-12">
-			<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
-				<div class="promo-inner">
-					<a ui-sref="imagination"><h2>Imagination</h2></a>
-				</div>
-			</div>
+			<flip flipped="flip5" ng-mouseenter="flip5 = !flip5" ng-mouseleave="flip5 = !flip5" ng-click="go('/imagination')">
+				<card-flip-front>
+					<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg); ">
+						<div class="promo-inner">
+							<h2>Imagination</h2>
+						</div>
+					</div>
+				</card-flip-front>
+				<card-flip-back>
+					<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
+						<div class="promo-inner">
+							<h2>This is the back</h2>
+						</div>
+					</div>
+				</card-flip-back>
+			</flip>
 		</div>
 		<div class="col-md-4 col-xs-12">
-			<div class="promo-box image" style="background-image: url(images/promo-box/3.jpg); ">
-				<div class="promo-inner">
-					<a ui-sref="cultural-heritage"><h2>Cultural Heritage</h2></a>
-				</div>
-			</div>
+			<flip flipped="flip6" ng-mouseenter="flip6 = !flip6" ng-mouseleave="flip6 = !flip6" ng-click="go('/cultural-heritage')">
+				<card-flip-front>
+					<div class="promo-box image" style="background-image: url(images/promo-box/1.jpg); ">
+						<div class="promo-inner">
+							<h2>Cultural Heritage</h2>
+						</div>
+					</div>
+				</card-flip-front>
+				<card-flip-back>
+					<div class="promo-box image" style="background-image: url(images/promo-box/2.jpg); ">
+						<div class="promo-inner">
+							<h2>This is the back</h2>
+						</div>
+					</div>
+				</card-flip-back>
+			</flip>
 		</div>
 	</div>
 
 </div>
 <!-- -->
-
-<script>
-	$(document).ready(function () {
-		var $featuredSlider = $('.featured-slider'),
-			options = $.extend({
-				items: 3,
-				nav: true,
-				navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-				responsive: {
-					0: {
-						items: 1
-					},
-					768: {
-						items: 2
-					},
-					992: {
-						items: 3
-					}
-				}
-			}, $featuredSlider.data());
-		$featuredSlider.owlCarousel(options);
-	});
-</script>

@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat:200,400,400i,700,700i%7CLora:400,400i,700,700i%7CPoppins:600'
@@ -14,19 +15,16 @@
 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/libs/justifiedGallery.min.css">
-	<link rel="stylesheet" type="text/css" href="css/libs/magnific-popup.css">
-	<link rel="stylesheet" type="text/css" href="css/libs/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/flip.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-
+	
 	<base href="/">
 </head>
 
 <body ng-app="app">
 
 	<!-- Wrapper Site -->
-	<div id="wrapper">
+	<div id="wrapper" ng-controller="MainController">
 
 		<!-- Header -->
 		<header id="header" class="header">
@@ -120,13 +118,10 @@
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/angular/angular.min.js"></script>
 	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-
-	<script src="js/libs/jquery.justifiedGallery.min.js"></script>
-	<script src="js/libs/jquery.magnific-popup.js"></script>
-	<script src="js/libs/owl.carousel.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.min.js"></script>
 	<script src="js/app.js"></script>
 
-	<script src="js/scripts.js"></script>
+
 	<!-- End Scripts -->
 </body>
 
