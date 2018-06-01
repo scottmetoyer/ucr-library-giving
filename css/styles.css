@@ -544,12 +544,12 @@ body {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0% 20%;
   padding: 20px;
 }
 
 .logo-wrap {
-  max-width: 33%;
+  max-width: 65%;
 }
 
 @media screen and (max-width: 782px) {
@@ -560,25 +560,24 @@ body {
 }
 
 .logo-wrap .logo-text {
-  font-size: 35px;
-  color: #2d6cc0;
+  font-size: 5vw;
+  color: #f1ab00;
   text-transform: uppercase;
-  font-family: "Poppins", serif;
+  font-family: "Trade Gothic W02", serif;
   line-height: 1em;
   margin: 0;
   padding: 0;
   font-weight: 600;
-  letter-spacing: 12px;
   overflow: hidden;
 }
 
 .logo-wrap .tagline {
   margin: 0;
-  font-size: 18px;
+  font-size: 2.5vw;
   color: #2d6cc0;
-  letter-spacing: 2px;
-  font-style: italic;
-  text-transform: capitalize;
+  font-family: "Trade Gothic W02", serif;
+  line-height: 1em;
+  font-weight: 600;
   padding-top: 10px;
 }
 
@@ -651,13 +650,38 @@ body {
 }
 
 .header-nav {
-  height: 64px;
   background: #ffffff;
   font-size: 11px;
   text-transform: uppercase;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   letter-spacing: 2px;
   box-shadow: 0 0 10px 0 rgba(153, 153, 153, 0.2);
+  height: 75px;
+}
+
+.header-nav .logo {
+  margin: 10px 0 10px 10px;
+  padding: 0;
+}
+
+.header-nav a {
+  display: inline-block;
+  padding: 24px;
+  font-size: 14px;
+}
+
+.header-nav a.give-button {
+  background-color: #f1ab00;
+  display: block;
+  width: 300px;
+  height: 75px;
+  text-transform: uppercase;
+  font-family: 'Trade Gothic W02', sans-serif;
+  color: #ffffff;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+  float: right;
 }
 
 .header-nav.menu-sticky {
@@ -1451,7 +1475,7 @@ body {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 40px;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   letter-spacing: 1px;
   color: #f8f8f8;
   position: relative;
@@ -1598,7 +1622,7 @@ body {
   text-transform: uppercase;
   background-color: #2d6cc0;
   display: inline-block;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
@@ -1828,7 +1852,7 @@ body {
 
 #comments .comment-author {
   font-size: 12px;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   letter-spacing: 2px;
   color: #000000;
   text-transform: uppercase;
@@ -1924,7 +1948,7 @@ body {
   display: block;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   letter-spacing: 2px;
   width: 100%;
   opacity: 1;
@@ -2268,7 +2292,7 @@ body {
   display: inline-block;
   padding: 15px 30px;
   font-size: 14px;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   background-color: #2d6cc0;
   color: #ffffff;
   position: absolute;
@@ -2304,7 +2328,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #000000;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -2417,7 +2441,7 @@ body {
   display: block;
   width: 100%;
   text-transform: uppercase;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   letter-spacing: 3px;
   color: #ffffff;
   height: 40px;
@@ -2484,7 +2508,7 @@ body {
 .widget.widget_pages>ul li,
 .widget.widget_meta>ul li,
 .widget.widget_categories>ul li {
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 1.6em;
@@ -2543,7 +2567,7 @@ body {
 .widget.widget_rss>ul li,
 .widget.widget_recent_comments>ul li {
   color: #000000;
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   font-size: 12px;
   line-height: 1.6em;
   text-transform: uppercase;
@@ -2581,7 +2605,7 @@ body {
 }
 
 .widget.widget_nav_menu ul.menu li {
-  font-family: 'Montserrat', serif;
+  font-family: 'Source Sans Pro', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1.6em;
@@ -3053,4 +3077,13 @@ body {
 
 .top-padding {
   padding-top: 20px;
+}
+
+.breadcrumb {
+  text-transform: capitalize;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3f3f3f;
+  opacity: 0.7;
+  width: 100%;
 }
