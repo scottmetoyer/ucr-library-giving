@@ -690,6 +690,10 @@ body {
   .header-top {
     background-position: 50% 100%;
   }
+
+  .header-nav .logo {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -706,10 +710,6 @@ body {
 
   .logo-wrap .tagline {
     font-size: 20px;
-  }
-
-  .header-nav .logo {
-    display: none;
   }
 }
 
