@@ -566,6 +566,7 @@ body {
   font-family: "Trade Gothic W02", sans-serif;
   line-height: 1em;
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   font-weight: 600;
   overflow: hidden;
@@ -573,6 +574,7 @@ body {
 
 .logo-wrap .tagline {
   margin: 0;
+  margin-top: 10px;
   font-size: 2.5vw;
   color: #2d6cc0;
   font-family: "Trade Gothic W02", sans-serif;
@@ -589,7 +591,7 @@ body {
   padding: 10px;
   max-width: 50%;
   background-color: rgba(236, 236, 236, 0.5);
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .socials {
@@ -672,7 +674,7 @@ body {
 
 .header-nav .logo {
   margin: 20px;
-  margin-top: 10px;
+  margin-top: 6px;
   padding: 0;
 }
 
@@ -680,7 +682,6 @@ body {
   .header-nav .explore-link {
     display: none;
   }
-
   .header-nav a.give-button {
     width: 100%;
   }
@@ -690,7 +691,6 @@ body {
   .header-top {
     background-position: 50% 100%;
   }
-
   .header-nav .logo {
     display: none;
   }
@@ -703,11 +703,9 @@ body {
   .header-nav a.explore-link {
     display: none;
   }
-
   .logo-wrap .description {
     display: none;
   }
-
   .logo-wrap .tagline {
     font-size: 20px;
   }
@@ -1150,21 +1148,27 @@ body {
   display: none;
 }
 
-.promos-box {
-  padding: 60px 40px 65px 40px;
-  position: relative;
+.promo-header {
+  border-bottom: solid 1px #bbb;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -20px;
 }
 
-.promos-box:after {
-  content: '';
-  border-top: 1px solid #cccccc;
-  height: 10px;
-  width: 100%;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.promo-header h3 {
+  display: inline-block;
+  position: relative;
+  bottom: -35px;
+  background-color: #f8f8f8;
+  padding: 10px;
 }
+
+.promos-box {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 
 .promos-box .promo-box {
   position: relative;
@@ -3135,4 +3139,10 @@ body {
   color: #3f3f3f;
   opacity: 0.7;
   width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
 }

@@ -6,6 +6,7 @@ flip {
 flip .card-flip {
     position: relative;
     perspective: 2000px;
+    padding: 10px;
 }
 
 flip .card-flip-face {
