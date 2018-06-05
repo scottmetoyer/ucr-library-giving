@@ -1152,7 +1152,7 @@ body {
   border-bottom: solid 1px #bbb;
   text-align: center;
   text-transform: uppercase;
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
 .promo-header h3 {
@@ -1168,7 +1168,6 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
 
 .promos-box .promo-box {
   position: relative;
@@ -1198,6 +1197,14 @@ body {
 .promos-box .promo-inner {
   display: table-cell;
   vertical-align: bottom;
+  text-align: center;
+  z-index: 3;
+  position: relative;
+}
+
+.promos-box .promo-inner-back {
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
   z-index: 3;
   position: relative;
@@ -2303,7 +2310,7 @@ body {
 }
 
 #footer .copyright a {
-  color: #2d6cc0;
+  color: #fff;
 }
 
 #footer .copyright a:hover {
@@ -3141,8 +3148,68 @@ body {
   width: 100%;
 }
 
+.footer-logo {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipY;
+  -ms-filter: "FlipY";
+  margin-bottom: 20px;
+}
+
 @media (min-width: 1200px) {
-  .container {
+  .container-wide {
     max-width: 80%;
   }
+}
+
+footer h5 {
+  color: #fff;
+  margin: 0;
+  border-bottom: solid 1px #fff;
+}
+
+footer {
+  padding-top: 10px;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+footer ul {
+  padding: 6px;
+}
+
+.promo {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.learn-more-button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  background-color: #f1ab00;
+  color: #fff;
+  font-family: "Trade Gothic W02", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.overlay {
+  background: linear-gradient(0deg, rgba(45, 108, 192, 0.9), rgba(45, 108, 192, 0.9)), url(../images/promo-box/promo-bg.jpg);
+  background-size: cover;
+}
+
+p.big {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.give-footer {
+  font-size: 20px;
+  padding: 10px;
 }
