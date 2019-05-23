@@ -714,7 +714,8 @@ body {
 .header-nav a {
   display: inline-block;
   padding: 24px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .header-nav a.give-button {
