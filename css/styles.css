@@ -331,6 +331,7 @@ h3,
 h4,
 .h4 {
   font-size: 22px;
+  margin-top: 0px;
 }
 
 h5,
@@ -3213,4 +3214,14 @@ p.big {
 .give-footer {
   font-size: 20px;
   padding: 10px;
+}
+
+.card-footer {
+  padding: .75rem 1.25rem;
+  background-color: #fff;
+  border-top: 0;
+}
+
+.card-deck {
+  margin-bottom: 2em;
 }

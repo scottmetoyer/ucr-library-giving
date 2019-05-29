@@ -49,10 +49,24 @@ app.run(function ($transitions) {
 
 app.controller('MainController', ['$scope', '$location', function ($scope, $location) {
   $scope.go = function (path) {
-    console.log(path);
     $location.path(path);
   };
 }]);
+
+app.directive('card', function() {
+  return {
+    restrict: 'E',
+    templateUrl: 'templates/card.html',
+    scope: {
+      image: '@',
+      alt: '@',
+      title: '@',
+      text: '@',
+      link: '@'
+    },
+    replace: true
+  };
+});
 
 app.directive('flip', function () {
   return {
