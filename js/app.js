@@ -48,8 +48,14 @@ app.run(function ($transitions) {
 });
 
 app.controller('MainController', ['$scope', '$location', function ($scope, $location) {
+  $scope.showLogo = true;
+
   $scope.go = function (path) {
     $location.path(path);
+  };
+
+  $scope.toggleLogo = function() {
+    $scope.showLogo = !$scope.showLogo;
   };
 }]);
 
