@@ -3225,3 +3225,11 @@ p.big {
 .card-deck {
   margin-bottom: 2em;
 }
+
+.card-text {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}

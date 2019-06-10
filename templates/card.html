@@ -3,7 +3,7 @@
         <img src="{{ image }}" alt="{{ alt }}">
         <div class="card-body">
             <h4 class="card-title">{{ title }}</h4>
-            <p class="card-text">{{ text }}</p>
+            <p class="card-text" ng-bind-html="text"></p>
         </div>
         <div class="card-footer">
             <a href="{{ link }}" target="_blank" class="learn-more-button btn btn-block">Give
