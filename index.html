@@ -24,95 +24,91 @@
 </head>
 
 <body ng-app="app">
-
-	<!-- Wrapper Site -->
 	<div id="wrapper" ng-controller="MainController">
 
-		<!-- Header -->
 		<header id="header" class="header">
 			<div class="header-nav">
 				<div class="row">
-					<div class="col-md-3 col-sm-6" ng-click="toggleLogo()" style="cursor:pointer;">
+					<div class="col-md-3 col-sm-6" style="cursor:pointer;">
 						<a href="#" class="logo">
-							<img src="images/logo.svg" alt="site logo" style="max-width: none;" ng-show="showLogo" />
+							<img src="images/logo.svg" alt="site logo" style="max-width: none;" />
 						</a>
 					</div>
 					<div class="col-md-9 col-sm-6">
-						<!-- Header buttons -->
 						<div class="text-right">
 							<a href="#" title="Explore all library funds" class="explore-link">
 								Explore all library funds
 							</a>
-							<a href="#" title="Give now" class="give-button">
+							<a href="https://myadv.ucr.edu" title="Give now" class="give-button" target="_blank">
 								Give now
 							</a>
 						</div>
-						<!-- End header buttons -->
 					</div>
 				</div>
 			</div>
 		</header>
-		<!-- End Header -->
 
 		<ui-view></ui-view>
 
-		<!-- Footer -->
 		<footer id="footer" class="footer">
 			<div class="copyright">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col">
 							<a href="https://library.ucr.edu">
 								<img src="images/logo-white.svg" class="footer-logo">
 							</a>
 						</div>
-						<div class="col-md-2">
+						<div class="col">
 							<h5>Contact Us</h5>
 							<ul>
 								<li>
-									<a href="mailto:megan@ucr.edu">Megan De Leon</a>
+									<a href="mailto:clyde.derrick@ucr.edu">Clyde D Derrick</a>
+								</li>
+								<li>
+									(951) 827-6388
 								</li>
 							</ul>
 						</div>
-						<div class="col-md-2">
+						<div class="col">
 							<h5>Invest In</h5>
 							<ul>
-								<li>
-									<a href="">Student Success</a>
+								<li class="mb-1">
+									<a href="#" ng-click="go('/student-success')">Student Success</a>
 								</li>
-								<li>
-									<a href="">Research Excellence</a>
+								<li class="mb-1">
+									<a href="#" ng-click="go('/research-excellence')">Research Excellence</a>
 								</li>
-								<li>
-									<a href="">Creativity &amp; Entrepreneurship</a>
+								<li class="mb-1">
+									<a href="#" ng-click="go('/creativity-entrepreneurship')">Creativity &amp; Entrepreneurship</a>
 								</li>
-								<li>
-									<a href="">Inspiring Spaces</a>
+								<li class="mb-1">
+									<a href="#" ng-click="go('/inspiring-spaces')">Inspiring Spaces</a>
 								</li>
-								<li>
-									<a href="">Imagination</a>
+								<li class="mb-1">
+									<a href="#" ng-click="go('/imagination')">Imagination</a>
 								</li>
-								<li>
-									<a href="">Cultural Heritage</a>
+								<li class="mb-1">
+									<a href="#" ng-click="go('/cultural-heritage')">Cultural Heritage</a>
 								</li>
 
 							</ul>
 						</div>
-						<div class="col-md-2">
+						<div class="col">
 							<h5>Campaign</h5>
 							<ul>
 								<li>
-									<a href="">Why Give</a>
+									<a href="https://campaign.ucr.edu/#why-give">Why Give</a>
 								</li>
 								<li>
-									<a href="">Impact</a>
+									<a href="https://campaign.ucr.edu/#impact">Impact</a>
 								</li>
 								<li>
-									<a href="">Ways to Give</a>
+									<a href="https://campaign.ucr.edu/#ways-to-give">Ways to Give</a>
 								</li>
 							</ul>
 						</div>
-						<div class="col-md-2">
+						<div class="col">
 							<h5>Follow</h5>
 							<ul>
 								<li>
@@ -138,10 +134,7 @@
 				</div>
 			</div>
 		</footer>
-		<!-- End Footer -->
-
 	</div>
-	<!-- End Wrapper Site -->
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/angular/angular.min.js"></script>
