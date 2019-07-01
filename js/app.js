@@ -8,6 +8,11 @@ app.config(function ($stateProvider, $locationProvider) {
       templateUrl: 'views/home.html'
     })
     .state({
+      name: 'featured-funds',
+      url: '/featured-funds',
+      templateUrl: 'views/featured-funds.html'
+    })
+    .state({
       name: 'creativity-entrepreneurship',
       url: '/creativity-entrepreneurship',
       templateUrl: 'views/creativity-entrepreneurship.html'
@@ -62,7 +67,8 @@ app.directive('card', function() {
       alt: '@',
       title: '@',
       text: '@',
-      link: '@'
+      link: '@',
+      pending: '@'
     },
     replace: true
   };

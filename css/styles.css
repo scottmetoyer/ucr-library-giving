@@ -679,13 +679,13 @@ body {
   padding: 0;
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 767px) {
   .header-nav .explore-link {
-    display: none;
+    display: none !important;
   }
 
   .header-nav a.give-button {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -718,6 +718,17 @@ body {
 }
 
 .header-nav a {
+  display: inline-block;
+  padding: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-nav #featured-funds-link {
+  padding-right: 8px;
+}
+
+.header-nav .explore-link {
   display: inline-block;
   padding: 24px;
   font-size: 16px;
@@ -3282,7 +3293,4 @@ p.big {
 
 .logo-text {
   text-shadow: 2px 2px 6px #aaa;
-}
-
-.tagline {
 }

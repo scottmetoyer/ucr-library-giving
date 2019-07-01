@@ -6,8 +6,9 @@
             <p class="card-text" ng-bind-html="text"></p>
         </div>
         <div class="card-footer">
-            <a href="{{ link }}" target="_blank" class="learn-more-button btn btn-block">Give
+            <a href="{{ link }}" target="_blank" class="learn-more-button btn btn-block" ng-hide="{{ pending }}">Give
                 now</a>
+            <h5 ng-show="{{ pending }}" class="text-center" style="color: #222222">Coming soon</h3>
         </div>
     </div>
 </div>
